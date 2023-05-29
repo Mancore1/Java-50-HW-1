@@ -61,6 +61,6 @@ class StringTests {
 		String str = "Hello";
 		assertEquals(1, str.lastIndexOf('e'));
 		assertEquals(-1, str.lastIndexOf('E'));
-		assertEquals(-1, str.lastIndexOf('k'));
+		assertEquals(-1, str.lastIndexOf('z'));
 	}
  }
